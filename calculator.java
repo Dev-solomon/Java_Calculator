@@ -117,6 +117,7 @@ class Calculator implements ActionListener {
         f.setSize(300, 300);
         // f.show();
         f.setLocationRelativeTo(null);
+        f.setResizable(false);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setVisible(true);
     }
